@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="초대장" src="../assets/wedding_card_test.jpg" width="960" height="480" />
+    <br />
+    <button type="button" class="btn btn-primary" @click="confirm">수락</button>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  name: "HomeView",
+  methods: {
+    confirm: function () {
+      this.$router.push("/intro");
+    },
+  },
+};
 </script>
+
+<style scoped>
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
