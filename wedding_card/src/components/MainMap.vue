@@ -11,10 +11,10 @@
     </naver-info-window>
   </naver-map>
 
-  <a href="https://naver.me/FOh7yaDE">
+  <a href="https://naver.me/FOh7yaDE" target="_blank">
     <button type="button" class="btn btn-primary">네이버 지도에서 보기</button>
   </a>
-  <a href="http://kko.to/k2p3oB8pV9">
+  <a href="http://kko.to/k2p3oB8pV9" target="_blank">
     <button type="button" class="btn btn-primary">카카오 지도에서 보기</button>
   </a>
 </template>
